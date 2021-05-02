@@ -1,0 +1,67 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\abdul\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add spectre.css
+
+PATH: 
+  C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\abdul\AppData\Local\Microsoft\WindowsApps;C:\Program Files\nodejs\;C:\Program Files (x86)\Calibre2\;C:\Program Files\Git\cmd;C:\Users\abdul\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\abdul\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EBUSY: resource busy or locked, copyfile 'C:\Users\abdul\AppData\Local\Yarn\Cache\v6\npm-websocket-driver-0.7.4-89ad5295bbf64b480abcba31e4953aca706f5760-integrity\node_modules\websocket-driver\lib\websocket\driver\hybi\message.js' -> 'C:\Users\abdul\Documents\Code\realTimeCurrencyAPI\currency-app\node_modules\websocket-driver\lib\websocket\driver\hybi\message.js'
+
+npm manifest: 
+  {
+    "name": "currency-app",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "serve": "vue-cli-service serve",
+      "build": "vue-cli-service build",
+      "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+      "core-js": "^3.6.5",
+      "vue": "^3.0.0"
+    },
+    "devDependencies": {
+      "@vue/cli-plugin-babel": "~4.5.0",
+      "@vue/cli-plugin-eslint": "~4.5.0",
+      "@vue/cli-service": "~4.5.0",
+      "@vue/compiler-sfc": "^3.0.0",
+      "babel-eslint": "^10.1.0",
+      "eslint": "^6.7.2",
+      "eslint-plugin-vue": "^7.0.0"
+    },
+    "eslintConfig": {
+      "root": true,
+      "env": {
+        "node": true
+      },
+      "extends": [
+        "plugin:vue/vue3-essential",
+        "eslint:recommended"
+      ],
+      "parserOptions": {
+        "parser": "babel-eslint"
+      },
+      "rules": {}
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not dead"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
